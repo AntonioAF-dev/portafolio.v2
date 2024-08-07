@@ -19,35 +19,29 @@ window.onscroll = function () {
     }
 };
 
-// script.js
+// Selecciona el checkbox del interruptor
+const themeSwitchCheckbox = document.getElementById('theme-switch-checkbox');
 
-// Almacena el botón y el cuerpo del documento
-const toggleButton = document.getElementById('theme-toggle');
-const body = document.body;
+// Verifica si hay un tema guardado en el almacenamiento local
+const currentTheme = localStorage.getItem('theme');
 
-// Función para cambiar entre modos
-toggleButton.addEventListener('click', () => {
-    body.classList.toggle('dark-mode');
-    body.classList.toggle('light-mode');
+// Si hay un tema guardado, aplícalo
+if (currentTheme) {
+    document.body.classList.add(currentTheme);
+    themeSwitchCheckbox.checked = currentTheme === 'night';
+}
 
-    // Cambia el icono del botón
-    if (body.classList.contains('dark-mode')) {
-        toggleButton.textContent = '☀️';
+// Escucha el evento de cambio en el checkbox
+themeSwitchCheckbox.addEventListener('change', () => {
+    // Si el checkbox está activado, aplica el tema nocturno
+    if (themeSwitchCheckbox.checked) {
+        document.body.classList.add('night');
+        document.body.classList.remove('day');
+        localStorage.setItem('theme', 'night'); // Guarda el tema nocturno en el almacenamiento local
     } else {
-        toggleButton.textContent = '🌙';
+        document.body.classList.add('day');
+        document.body.classList.remove('night');
+        localStorage.setItem('theme', 'day'); // Guarda el tema diurno en el almacenamiento local
     }
-
-    // Almacena el modo en localStorage para recordar la preferencia del usuario
-    localStorage.setItem('theme', body.className);
 });
 
-// Aplica el tema guardado en localStorage al cargar la página
-const savedTheme = localStorage.getItem('theme');
-if (savedTheme) {
-    body.className = savedTheme;
-
-    // Ajusta el icono del botón según el tema cargado
-    if (body.classList.contains('dark-mode')) {
-        toggleButton.textContent = '☀️';
-    }
-}

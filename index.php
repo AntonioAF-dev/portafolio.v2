@@ -105,8 +105,6 @@ define('ROOT_PATH', __DIR__ . '/'); // Define ROOT_PATH como la ruta del directo
                             </tr>
                         </table>
                     </div>
-
-
                     <!--Card-->
                     <div class="card">
                         <img src="assets/img/perfil-portada.webp" alt="Card Image" class="card__image" />
@@ -138,7 +136,6 @@ define('ROOT_PATH', __DIR__ . '/'); // Define ROOT_PATH como la ruta del directo
                 <div class="projects">
                     <h2 class="tittle-projects">Ver mis proyectos recientes</h2>
                 </div>
-
                 <div class="container2">
                     <div class="project">
                         <img src="assets/img/html.webp" alt="HTML">
@@ -165,11 +162,9 @@ define('ROOT_PATH', __DIR__ . '/'); // Define ROOT_PATH como la ruta del directo
                         <div class="description-pj">GitHub</div>
                     </div>
                 </div>
-
                 <div class="projects">
                     <h2 class="tittle-projects">Recuerdos Shakira 😍</h2>
                 </div>
-
                 <div class="galeriaR">
                     <div class="img-box">
                         <span style="--i: 1"><img src="assets/img/imagen1.webp" alt="" /></span>
@@ -182,7 +177,91 @@ define('ROOT_PATH', __DIR__ . '/'); // Define ROOT_PATH como la ruta del directo
                         <span style="--i: 8"><img src="assets/img/imagen8.webp" alt="" /></span>
                     </div>
                 </div>
+                <!--div-->
+                <div class="projects">
+                    <h2 class="tittle-projects">Noticias relevantes sobre tecnologia</h2>
+                </div>
+                <div class="article-container">
+                    <div class="article-img">
+                        <img src="assets/img/ia.webp" alt="AI Trends" class="article-imagen">
+                    </div>
+                    <div class="article-content">
+                        <div class="article-title">Tendencias Tecnológicas 2024: Inteligencia Artificial y Más</div>
+                        <div class="article-date">6 de Agosto, 2024</div>
+                        <div class="article-text">
+                            La inteligencia artificial (IA) sigue liderando las tendencias tecnológicas en 2024, con avances significativos en
+                            el procesamiento del lenguaje natural y en la capacidad de generar contenido multimedia.<br>
+                            Otra tendencia clave es la computación cuántica, que promete revolucionar áreas como la criptografía y la optimización de procesos.<br>
+                            Además, el auge de la realidad aumentada (AR) y la realidad virtual (VR) continúa transformando sectores como
+                            la educación, el entretenimiento y el comercio electrónico.<br>
+                            Por último, la tecnología 5G sigue expandiéndose, impulsando la conectividad y habilitando el desarrollo de
+                            nuevas aplicaciones en el Internet de las Cosas (IoT).<br>
+                            Estas tendencias están moldeando el futuro de la tecnología y ofreciendo nuevas oportunidades para innovar y transformar la sociedad.<br>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="article-container">
+                    <div class="article-img">
+                        <img src="assets/img/ia.webp" alt="AI Trends" class="article-imagen">
+                    </div>
+                    <div class="article-content">
+                        <div class="article-title">Tendencias Tecnológicas 2024: Inteligencia Artificial y Más</div>
+                        <div class="article-date">6 de Agosto, 2024</div>
+                        <div class="article-text">
+                            La inteligencia artificial (IA) sigue liderando las tendencias tecnológicas en 2024, con avances significativos en
+                            el procesamiento del lenguaje natural y en la capacidad de generar contenido multimedia.<br>
+                            Otra tendencia clave es la computación cuántica, que promete revolucionar áreas como la criptografía y la optimización de procesos.<br>
+                            Además, el auge de la realidad aumentada (AR) y la realidad virtual (VR) continúa transformando sectores como
+                            la educación, el entretenimiento y el comercio electrónico.<br>
+                            Por último, la tecnología 5G sigue expandiéndose, impulsando la conectividad y habilitando el desarrollo de
+                            nuevas aplicaciones en el Internet de las Cosas (IoT).<br>
+                            Estas tendencias están moldeando el futuro de la tecnología y ofreciendo nuevas oportunidades para innovar y transformar la sociedad.<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="article-container">
+                    <div class="article-img">
+                        <img src="assets/img/ia.webp" alt="AI Trends" class="article-imagen">
+                    </div>
+                    <div class="article-content">
+                        <div class="article-title">Tendencias Tecnológicas 2024: Inteligencia Artificial y Más</div>
+                        <div class="article-date">6 de Agosto, 2024</div>
+                        <div class="article-text">
+                            La inteligencia artificial (IA) sigue liderando las tendencias tecnológicas en 2024, con avances significativos en
+                            el procesamiento del lenguaje natural y en la capacidad de generar contenido multimedia.<br>
+                            Otra tendencia clave es la computación cuántica, que promete revolucionar áreas como la criptografía y la optimización de procesos.<br>
+                            Además, el auge de la realidad aumentada (AR) y la realidad virtual (VR) continúa transformando sectores como
+                            la educación, el entretenimiento y el comercio electrónico.<br>
+                            Por último, la tecnología 5G sigue expandiéndose, impulsando la conectividad y habilitando el desarrollo de
+                            nuevas aplicaciones en el Internet de las Cosas (IoT).<br>
+                            Estas tendencias están moldeando el futuro de la tecnología y ofreciendo nuevas oportunidades para innovar y transformar la sociedad.<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="article-container">
+                    <div class="article-img">
+                        <img src="assets/img/ia.webp" alt="AI Trends" class="article-imagen">
+                    </div>
+                    <div class="article-content">
+                        <div class="article-title">Tendencias Tecnológicas 2024: Inteligencia Artificial y Más</div>
+                        <div class="article-date">6 de Agosto, 2024</div>
+                        <div class="article-text">
+                            La inteligencia artificial (IA) sigue liderando las tendencias tecnológicas en 2024, con avances significativos en
+                            el procesamiento del lenguaje natural y en la capacidad de generar contenido multimedia.<br>
+                            Otra tendencia clave es la computación cuántica, que promete revolucionar áreas como la criptografía y la optimización de procesos.<br>
+                            Además, el auge de la realidad aumentada (AR) y la realidad virtual (VR) continúa transformando sectores como
+                            la educación, el entretenimiento y el comercio electrónico.<br>
+                            Por último, la tecnología 5G sigue expandiéndose, impulsando la conectividad y habilitando el desarrollo de
+                            nuevas aplicaciones en el Internet de las Cosas (IoT).<br>
+                            Estas tendencias están moldeando el futuro de la tecnología y ofreciendo nuevas oportunidades para innovar y transformar la sociedad.<br>
+                        </div>
+                    </div>
+                </div>
+
+                <!--mapa-->
                 <div class="projects">
                     <h2 class="tittle-projects">Visitanos en:</h2>
                 </div>

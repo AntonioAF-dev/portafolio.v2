@@ -22,9 +22,25 @@
                 <li><a href="https://www.tiktok.com/@antonioaf39?lang=es" target="_blank" title="Tiktok"><img src="assets/img/tiktok.svg" alt="Tiktok"></a></li>
             </ul>
         </div>
-        
-        <div class="mode">
-            <button id="theme-toggle">🌙</button>
-            <p class="theme">Dark Mode</p>
+        <div class="tema">
+            <p class="dark-box">Dark</p>
         </div>
+        <div class="theme-switch">
+        <input type="checkbox" id="theme-switch-checkbox" class="theme-switch__checkbox">
+        <label for="theme-switch-checkbox" class="theme-switch__container">
+            <div class="theme-switch__circle-container">
+                <div class="theme-switch__sun-moon-container">
+                    <div class="theme-switch__moon">
+                        <div class="theme-switch__spot"></div>
+                        <div class="theme-switch__spot"></div>
+                        <div class="theme-switch__spot"></div>
+                    </div>
+                    <div class="theme-switch__clouds"></div>
+                    <div class="theme-switch__stars-container">
+                        <span></span><span></span><span></span>
+                    </div>
+                </div>
+            </div>
+        </label>
+    </div>
 </nav>
