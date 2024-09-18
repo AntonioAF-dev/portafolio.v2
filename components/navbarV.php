@@ -26,21 +26,21 @@
             <p class="dark-box">Dark</p>
         </div>
         <div class="theme-switch">
-        <input type="checkbox" id="theme-switch-checkbox" class="theme-switch__checkbox">
-        <label for="theme-switch-checkbox" class="theme-switch__container">
-            <div class="theme-switch__circle-container">
-                <div class="theme-switch__sun-moon-container">
-                    <div class="theme-switch__moon">
-                        <div class="theme-switch__spot"></div>
-                        <div class="theme-switch__spot"></div>
-                        <div class="theme-switch__spot"></div>
-                    </div>
-                    <div class="theme-switch__clouds"></div>
-                    <div class="theme-switch__stars-container">
-                        <span></span><span></span><span></span>
+            <input type="checkbox" id="theme-switch-checkbox" class="theme-switch__checkbox">
+            <label for="theme-switch-checkbox" class="theme-switch__container">
+                <div class="theme-switch__circle-container">
+                    <div class="theme-switch__sun-moon-container">
+                        <div class="theme-switch__moon">
+                            <div class="theme-switch__spot"></div>
+                            <div class="theme-switch__spot"></div>
+                            <div class="theme-switch__spot"></div>
+                        </div>
+                        <div class="theme-switch__clouds"></div>
+                        <div class="theme-switch__stars-container">
+                            <span></span><span></span><span></span>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </label>
-    </div>
+            </label>
+        </div>
 </nav>

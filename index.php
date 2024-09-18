@@ -7,7 +7,7 @@ define('ROOT_PATH', __DIR__ . '/'); // Define ROOT_PATH como la ruta del directo
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <link href="https://db.onlinewebfonts.com/c/0ee67558ce9f1e5900b0579062ed114a?family=Symphony+Script+-+personal+use" rel="stylesheet">
     <link rel="shortcut icon" href="https://www.urbasanz.com/wp-content/uploads/2024/02/Gestion-Inmobiliaria.webp" />
     <link rel="stylesheet" href="assets/css/styles.css">
